@@ -1,14 +1,15 @@
 
 #include<stdio.h>
-#include<conio.h>
 int main() {
-  for(int i=0;i<5;i++){
-     
-          if(i==0 | i==4){{
-           for(int j=0;j<5;j++){
+  
+  for(int i=0;i<5;i++){   
+          if(i==0 | i==4){
+            {
+              for(int j=0;j<5;j++){
                printf("* ");
-             }
-          }printf("\n");
+              }
+            }
+            printf("\n");
           }
          else {
               for(int j=0;j<5;j++){
